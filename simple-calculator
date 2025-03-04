@@ -1,0 +1,14 @@
+int main()
+{
+    int sum,sub,mul,div,a,b;
+    printf("Enter the value of a and b: ");
+    scanf("%d,%d",&a,&b);
+    sum=a+b;
+    sub=a-b;
+    mul=a*b;
+    div=a/b;
+    printf("The sum of a and b is: %d\n",sum);
+    printf("The sub of a and b is: %d\n",sub);
+    printf("The mul of a and b is: %d\n",mul);
+    printf("The div of a and b is: %d\n",div);
+}
